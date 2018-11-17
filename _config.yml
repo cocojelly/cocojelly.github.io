@@ -1,0 +1,42 @@
+remote_theme : joshgerdes/jekyll-uno
+
+# Site settings
+title: cocoJelly
+description: 'Start from zero'
+url: 'http://cocojelly.github.io'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'cocojelly'
+  email: dsl0130@naver.com
+  github_username:  cocoejelly
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['Gemfile', 'Gemfile.lock']
