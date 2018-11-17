@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://cocojelly.github.io/sitemap.xml
