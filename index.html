@@ -4,10 +4,6 @@ robots: noindex
 ---
 
 <div class="main-post-list">
-  {% if node.layout == "categories" %}
-  <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-      href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-  {% endif %}
   <ol class="post-list">
     {% for post in paginator.posts %}
       <li>
