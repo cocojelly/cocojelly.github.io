@@ -11,7 +11,7 @@ baseurl: ''
 author:
   name: 'cocojelly'
   email: dsl0130@naver.com
-  github_username:  cocoejelly
+  github_username:  cocojelly
 
 defaults:
   -
