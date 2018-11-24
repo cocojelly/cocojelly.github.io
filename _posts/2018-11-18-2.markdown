@@ -1,6 +1,0 @@
----
-title:  "2"
-date:   2018-11-18 00:14:23
-categories: 분석
-tags: analysis
----
