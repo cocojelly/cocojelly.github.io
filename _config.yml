@@ -6,7 +6,7 @@ description: 'Start from zero'
 url: 'http://cocojelly.github.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'cocojelly'
 
 author:
   name: 'cocojelly'
@@ -24,7 +24,7 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:title/
+permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
 
