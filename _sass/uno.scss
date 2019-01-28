@@ -54,7 +54,7 @@ body {
 @font-face {
 	font-family: "D2Coding";
 	src: url("../fonts/D2Coding.eot");
-	src: url("../fonts/D2Coding.eot?") format("embedded-opentype"), url("../fonts/D2Coding.woff") format("woff"), url("../fonts/D2Coding.ttf") format("truetype"), url("../fonts/D2Coding.svg") format("svg");
+	src: url("../fonts/D2Coding.eot?") format("embedded-opentype"), url("../fonts/D2Coding.woff") format("woff"), url("../fonts/D2Coding.ttf") format("truetype"), url("../fonts/foundation-icons/foundation-icons.svg") format("svg");
 	font-weight: normal;
 	font-style: normal; }
 .icon:before {
@@ -397,7 +397,6 @@ body {
 	content: "\f16c"; }
 
 .icon-mail:before {
-	src: url("../fonts/foundation-icons/foundation-icons.svg") format("svg");
 	content: "\f16d"; }
 
 .icon-male-female:before {
@@ -674,7 +673,6 @@ body {
 	content: "\f1c8"; }
 
 .icon-social-github:before {
-	src: url("../fonts/foundation-icons/foundation-icons.svg") format("svg");
 	content: "\f1c9"; }
 
 .icon-social-google-plus:before {
